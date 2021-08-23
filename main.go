@@ -86,6 +86,6 @@ func startSubsciption(ctx context.Context, client lift.Client) {
 		fmt.Printf("Subscribe error %v", err)
 		panic(err)
 	}
-	fmt.Println("Subscrption started...")
+	fmt.Println("Subscription started...")
 	<-ctx.Done()
 }
